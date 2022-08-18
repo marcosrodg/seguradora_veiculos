@@ -1,0 +1,74 @@
+
+.hero-container {
+  background: url("../images/freeDelivery.png") center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 70vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+  font-size: 36px;
+  color: #fff;
+  background-color: rgb(230, 140, 56);
+}
+.hero-btns .btn:hover {
+  box-shadow:10px 5px 5px #1C1C1C;
+  background-color: rgb(241, 119, 4);
+  color: #fff;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

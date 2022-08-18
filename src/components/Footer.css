@@ -1,0 +1,75 @@
+.footer-container {
+  background-color: rgb(56, 166, 230);
+  padding: 4rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-subscription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin-bottom: 24px;
+  padding: 24px;
+  color: #fff;
+}
+
+.footer-subscription > p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+
+}
+
+.footer-subscription-heading {
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+.footer-subscription-text {
+  margin-bottom: 24px;
+  font-size: 20px;
+}
+
+.footer-input {
+  padding: 8px 20px;
+  border-radius: 15px;
+  margin-right: 10px;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  margin-bottom: 16px;
+  border: 3px solid #f16e22f8;
+}
+
+.footer-links {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-email-form h2 {
+  margin-bottom: 2rem;
+}
+
+.footer-input::placeholder {
+  color: #b1b1b1;
+}
+
+.sub-btns .btn {
+  margin: 6px;
+  font-size: 20px;
+  color: #fff;
+  background-color: rgb(230, 140, 56);
+}
+.sub-btns .btn:hover {
+  box-shadow:10px 5px 5px #1C1C1C;
+  background-color: rgb(241, 119, 4);
+  color: #fff;
+}
